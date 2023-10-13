@@ -363,6 +363,8 @@ def main(): # pragma: no cover
     contigs = get_contigs(graph, starting_nodes, ending_nodes)
     save_contigs(contigs, args.output_file)
 
+    if args.graphimg_file:
+        draw_graph(graph, args.graphimg_file)
 
 if __name__ == '__main__': # pragma: no cover
     main()
