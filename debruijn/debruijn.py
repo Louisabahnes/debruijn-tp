@@ -11,6 +11,8 @@
 #    A copy of the GNU General Public License is available at
 #    http://www.gnu.org/licenses/gpl-3.0.html
 
+## j'ai tenté de refaire l'exercice seule sans m'aider, merci
+
 """Perform assembly based on debruijn graph."""
 
 import argparse
